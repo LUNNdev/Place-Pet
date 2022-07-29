@@ -1,0 +1,394 @@
+@font-face{
+  font-family: Poppins;
+  src: url(Poppins-Bold.ttf) format('truetype');
+}
+
+#title-site{
+  font-family:Poppins;
+  font-size:38px;
+  color: #FFFFFC;
+}
+
+.navbar{
+  height: 90px;
+  width: 100%;
+  left: 0;
+  top:0px;
+  position: fixed;
+}
+
+body{
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-top: 90px;
+}
+
+.bg-navbar{
+  background-color:#69a88d  ;
+}
+
+.text-white-j{
+  color: white;
+  font-family: Poppins;
+}
+
+.text-white-j:hover{
+  color: #040303;
+}
+
+.btn-j{
+  display: inline-block;
+  padding: 6px;
+  font-family: 'Poppins';
+  font-size: 13px;
+  font-weight: 25px;
+  line-height: 25px;
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: white 1px solid;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.btn-j:hover{
+  background-color: #176560;
+  box-shadow: 1px 4px 10px #040303;
+  color: #040303;
+}
+
+.cont-main{
+  background-color: #176560;
+  display:flex;
+  width: 100%;
+}
+
+.cont-sect{
+  padding: 2em;
+  width: 80%;
+}
+
+.cont-sect h1{
+  font-family: Poppins;
+  color:#FFFFFC
+}
+
+.cont-sect h2{
+  font-family: Poppins;
+  color:#FFFFFC;
+}
+
+.cont-sect p{
+  font-family: 'Times New Roman', Times, serif;
+  color:#040303;
+  font-size: 22px;
+}
+
+.cont-asi{
+  padding: 2em;
+  width: 20%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.enlace{
+  font-family: Poppins;
+  font-size: 100px;
+  color:#FFFFFC;
+}
+
+.enlace:hover{
+  color:#040303;
+  cursor: pointer;  
+  
+}
+
+.parrafo{
+  font-size: 50px;
+  color: #176560;
+  font-family: Poppins;
+}
+
+.title2{
+  color: #FFFFFC;
+}
+
+/* Servicios */
+
+main{
+  background-color:#176560
+}
+.about {
+  text-align: center;
+}
+
+.about h1{
+  font-family: Poppins;
+  color: #FFFFFC;
+  margin-bottom: 25px;
+  padding: 2rem
+}
+
+.about__title{
+  font-family: Poppins;
+  color:#FFFFFC
+}
+
+.about__paragrah{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color:#040303;
+}
+
+.about__main {
+  padding-top: 80px;
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+  gap: 1em;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+
+.about__icons {
+  display: grid;
+  gap: 1em;
+  justify-items: center;
+  width: 260px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.about__icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* formulario */
+
+#contenido{
+  width: 1349px;
+  height: 550px;
+  margin: 0 auto;
+  
+}
+
+#formulario{
+  width:674.5px;
+  float:left;
+  margin-top:30px;
+}
+
+#mapa{
+  width:674.5px;
+  float:left;
+  margin-top:80px;
+}
+
+.map-kuepa{
+  border-radius: 20px;
+  box-shadow:20px 20px 20px rgb(55, 55, 55);
+}
+
+main form{
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  display: flex;
+  font-family: Poppins;
+}
+
+.form{
+  background-color: #FFFFFC;
+  width: 90%;
+  margin: auto;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+
+.form_container{
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+
+.form_title{
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: .4em;
+}
+.form_input{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1rem;
+  padding: .8em 1em;
+  outline: none;
+  border: none;
+}
+
+.form_input--message{
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: .5em;
+}
+
+.form_cta{
+  background-color: #176560;
+  color:#FFFFFC;
+  border: none;
+  font-weight: 300;
+  padding: .7em 0;
+  border-radius: .2em;
+  cursor: pointer;
+  font-weight: 400;
+}
+/* Footer*/
+.footer{
+  background-color: #69a88d;
+}
+
+.footer__copy{
+  --padding-container: 50px 0;
+  text-align: center;
+  color: #FFFFFC;
+}
+
+.footer__copyright{
+  font-family: Poppins;
+  font-size: 22px;
+}
+
+.footer__icons{
+  margin-bottom: 20px;
+}
+
+.footer__img{
+  width: 30px;
+}
+
+/* Equipo medico*/
+
+.testimony{
+  background-image: url(../img/fondo.jpg);
+}
+
+.title-h1-m{
+  background-color: #176560;
+  height: 100px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: Poppins;
+  color: #FFFFFC;
+}
+
+.testimony__container{
+  height:410px;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  gap: 1em;
+  align-items: center;
+}
+
+.testimony__body{
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.title-med{
+  font-family: Poppins;
+  color: #040303;
+}
+
+.testimony__review{
+  font-family:'Times New Roman', Times, serif;
+  color: #040303;
+  font-size: 1.5em;
+}
+
+.testimony__body--show{
+  pointer-events: unset;
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.testimony__img{
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20%;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
+.testimony__texts{
+  max-width: 700px;
+}
+
+.testimony__arrow{
+  width: 90%;
+  cursor: pointer;
+}
+
+/* Tips */
+
+.tips{
+  background-image: url(../img/fondo.jpg);
+  text-align: center;
+}
+
+
+.tips h1{
+  font-family: Poppins;
+  color: #176560;
+  margin-bottom: 25px;
+  padding: 2rem
+}
+
+.tips__title{
+  font-family: Poppins;
+  color:#040303
+}
+
+.tips__paragrah{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color:#040303;
+}
+
+.tips__main{
+  padding-top: 80px;
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+  gap: 1em;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+
+.tips__icons{
+  display: grid;
+  gap: 1em;
+  justify-items: center;
+  width: 260px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.tips__icon{
+  width: 200px;
+  height: 200px;
+}
